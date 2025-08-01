@@ -1,1 +1,0 @@
-global.loopnumber = 0
