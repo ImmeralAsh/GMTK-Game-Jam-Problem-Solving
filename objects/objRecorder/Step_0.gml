@@ -34,7 +34,7 @@ if (cloneRecord) && (instance_exists(Player))
 			_frameToRecord[? "image"] = image_index;
 			_frameToRecord[? "SwordX"] = -objSword.x;
 			_frameToRecord[? "SwordAngle"] = -objSword.image_angle;
-			_frameToRecord[? "isSwinging"] = isSwinging;
+			_frameToRecord[? "state"] = state;
 		}
 		
 		ds_list_add(cloneRecordList, _frameToRecord);

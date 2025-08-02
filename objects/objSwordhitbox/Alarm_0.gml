@@ -1,1 +1,1 @@
-instance(destroy);
+instance_destroy();

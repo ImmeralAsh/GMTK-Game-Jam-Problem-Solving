@@ -53,6 +53,7 @@
     {"id":{"name":"PlayerWalkDown","path":"sprites/PlayerWalkDown/PlayerWalkDown.yy",},},
     {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
+    {"id":{"name":"SwordSlash","path":"sprites/SwordSlash/SwordSlash.yy",},},
     {"id":{"name":"SwordSprite","path":"sprites/SwordSprite/SwordSprite.yy",},},
     {"id":{"name":"TempleBase","path":"sprites/TempleBase/TempleBase.yy",},},
     {"id":{"name":"TestBoss","path":"sprites/TestBoss/TestBoss.yy",},},

@@ -31,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite12",
-    "path":"sprites/Sprite12/Sprite12.yy",
+    "name":"SwordSlash",
+    "path":"sprites/SwordSlash/SwordSlash.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"SwordSprite",
+    "path":"sprites/SwordSprite/SwordSprite.yy",
+  },
   "visible":true,
 }
