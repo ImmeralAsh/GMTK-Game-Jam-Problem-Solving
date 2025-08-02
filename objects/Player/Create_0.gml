@@ -55,6 +55,9 @@ Walking = function()
 	swingTime = 15;
 	if (canSwing) && (swingKey)
 	{
+		//lock hitbox direction
+		instance_create_depth(weapon.x+1, weapon.y+1, -1, objSwordhitbox);
+		objSwordhitbox.image_angle = weapon.image_angle;
 		canSwing = false;
 		state = Swinging;
 	}
@@ -79,18 +82,11 @@ Dashing = function()
 Swinging = function()
 {
 		swingTime -= 1;
-		instance_create_depth(weapon.x+1, weapon.y+1, -1, objSwordhitbox);
-		objSwordhitbox.image_angle = _dir+270;
-		objSwordhitbox.image_xscale = 1;
-		objSwordhitbox.image_yscale = 1;
 		if (swingTime >= 0)
 		{
 			canSwing = false;
 			_hspd = 0;
 			_vspd = 0;	
-			_dir = direction
-			//lock hitbox direction
-			objSwordhitbox.direction = Player.direction
 		}
 		else
 		{

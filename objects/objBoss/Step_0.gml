@@ -1,2 +1,2 @@
 if (keyboard_check(ord("K")))
-	{global.IsAlive = false}
+	{global.IsAlive = !global.IsAlive}

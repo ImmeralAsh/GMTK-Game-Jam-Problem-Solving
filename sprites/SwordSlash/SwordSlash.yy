@@ -15,8 +15,8 @@
     {"$GMSpriteFrame":"","%Name":"2993d8ab-9a94-4c06-930d-376ecd7fab6f","name":"2993d8ab-9a94-4c06-930d-376ecd7fab6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"ded95530-27f2-4ace-b0e4-9852254a6a7e","name":"ded95530-27f2-4ace-b0e4-9852254a6a7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"ae47eee4-5182-44b8-a9ba-7cacc571c08f","name":"ae47eee4-5182-44b8-a9ba-7cacc571c08f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e43e320d-2709-49f4-b79a-442c80413ba8","name":"e43e320d-2709-49f4-b79a-442c80413ba8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"a3ffcc0b-7a7e-4503-b706-db5f0a532c4c","name":"a3ffcc0b-7a7e-4503-b706-db5f0a532c4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e43e320d-2709-49f4-b79a-442c80413ba8","name":"e43e320d-2709-49f4-b79a-442c80413ba8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"e1de8375-ab65-4073-a792-f38990f817b5","name":"e1de8375-ab65-4073-a792-f38990f817b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"20804982-74e1-4b76-addb-dc05a0c7fffd","name":"20804982-74e1-4b76-addb-dc05a0c7fffd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"05c1bf10-d0e2-485e-aa0a-25a001ef5dbf","name":"05c1bf10-d0e2-485e-aa0a-25a001ef5dbf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -67,7 +67,7 @@
     },
     "name":"SwordSlash",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":40.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -88,11 +88,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ae47eee4-5182-44b8-a9ba-7cacc571c08f","path":"sprites/SwordSlash/SwordSlash.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"32ded5a7-8427-426f-a3d0-9a9f88b16d79","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e43e320d-2709-49f4-b79a-442c80413ba8","path":"sprites/SwordSlash/SwordSlash.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6e114918-1dd7-4ff7-9bd2-a0e93579be65","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a3ffcc0b-7a7e-4503-b706-db5f0a532c4c","path":"sprites/SwordSlash/SwordSlash.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f9a139b2-697f-4daa-8935-f5b33abf5301","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"f9a139b2-697f-4daa-8935-f5b33abf5301","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e43e320d-2709-49f4-b79a-442c80413ba8","path":"sprites/SwordSlash/SwordSlash.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6e114918-1dd7-4ff7-9bd2-a0e93579be65","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e1de8375-ab65-4073-a792-f38990f817b5","path":"sprites/SwordSlash/SwordSlash.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"556e054f-5115-45ff-ac8f-b151147cfe10","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},

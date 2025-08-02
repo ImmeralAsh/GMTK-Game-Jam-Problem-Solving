@@ -5,29 +5,31 @@ _up = keyboard_check(vk_up);
 _down = keyboard_check(vk_down);
 dashKey = keyboard_check_pressed(vk_space);
 swingKey = keyboard_check_pressed(ord("Z"));
-_hdir = _right - _left; //11-15 Movement Direction
+//Movement Direction
+_hdir = _right - _left;
 _vdir = _down - _up;
 _dir = point_direction(0, 0, _hdir, _vdir);
 _hspd = 3
 _vspd = 3
+
 //coloca animações para cada direção apontada
-switch (point_direction(0,0,_hdir, _vdir))
+switch (keyboard_key)
 	{
-		case point_direction(0,0,_hdir, _vdir) :
+		case vk_left :
 			sprite_index = LinkWalkSide;
 			image_xscale = 1;
 		break;
 
-		case (point_direction(0,0,_hdir, _vdir)<= 180 || point_direction(0,0,_hdir, _vdir) > 90):
+		case vk_right:
 			sprite_index = LinkWalkSide;
 			image_xscale = -1;
 		break;
 
-		case point_direction(0,0,_hdir, _vdir)>=90 && point_direction(0,0,_hdir, _vdir) <180:
+		case vk_up:
 			sprite_index = LinkWalkUp;
 		break;
 
-		case point_direction(0,0,_hdir, _vdir)>=270 && point_direction(0,0,_hdir, _vdir)<180:
+		case vk_down:
 			sprite_index = LinkWaklDown;
 		 break;
 		default: 
@@ -35,5 +37,4 @@ switch (point_direction(0,0,_hdir, _vdir))
 			image_speed = 0;
 		break;	
 	}
-
 state();
