@@ -6,6 +6,7 @@ if (cloneRecord) && (instance_exists(Player))
 			cloneRecordFrames += 1;
 			cloneRecordList = ds_list_create();
 		}
+		cloneRecordFrames ++;
 	var _frameToRecord = ds_map_create();
 	with (Player)
 		{
@@ -15,6 +16,7 @@ if (cloneRecord) && (instance_exists(Player))
 			_frameToRecord[? "sprite"] = sprite_index;
 			_frameToRecord[? "image"] = image_index;
 			_frameToRecord[? "SwordX"] = -objSword.x;
+			_frameToRecord[? "SwordY"] = -objSword.y;
 			_frameToRecord[? "SwordAngle"] = -objSword.image_angle;
 			_frameToRecord[? "state"] = state;
 		}
@@ -27,19 +29,18 @@ if (cloneRecord) && (instance_exists(Player))
 if (global.IsAlive)
 { 
 	cloneRecord = true;
-}
-else
-{
-
 	//stops recording
 		var _wrapper =  ds_map_create();
 		ds_map_add_list(_wrapper, "root", cloneRecordList);
 		var _inputlist = json_encode(_wrapper);
-		//if (file_exists("recording.json")) file_delete("recording.json");
 		var _recordFile = file_text_open_write("recording.json");
 		file_text_write_string(_recordFile, _inputlist);
 		file_text_close(_recordFile);
 		//ds_map_destroy(_wrapper);
+}
+else
+{
+	cloneRecord = false;
 }
 
 
